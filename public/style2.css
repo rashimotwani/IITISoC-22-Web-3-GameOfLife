@@ -1,0 +1,54 @@
+body{
+    background-color:black;
+    height:100%;
+    margin:0px;
+}
+h1{
+    margin:auto;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+#navbar{
+    border:2px solid black;
+    border-radius: 10px;
+    margin:0px;
+    display:flex;
+    background-color:#231955;
+}
+button:hover {background-color: #bdcf1d}
+
+
+table{
+    border:1px solid black;
+   width:50%;
+   height: 70%;
+  
+   margin-top: 2px;
+}
+td {
+    width: 18px;
+    height: 18px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+  
+  }
+  .filled {
+    background-color:#231955;
+  }
+  .empty {
+    background-color: white;
+  }
+  .buttton_nav{
+    height: 80%;
+    background:#231955 ;
+color: white;
+    width: 100%;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 4px;
+    margin-right:50px;
+    cursor: pointer;
+  }
