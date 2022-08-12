@@ -1,0 +1,95 @@
+<%- include("header") -%>
+    <div id="navbar">
+        
+           
+       
+            
+
+        <div><button type="submit" class="buttton_nav" name="ClearButton" id="reset_button" onclick="window.location.reload();">Clear</button></div>
+
+        <div><button class="buttton_nav" onclick="manualSet() ">Manual SetUp</button></div>
+       
+
+        <h1>Conway's Game of Life <% EJS %></h1>
+       
+        <div class="dropdown" style="float:right;">
+  <button class="dropbtn">Pattern</button>
+  <div class="dropdown-content">
+    <div><button class="buttton_nav" onclick="rPentomino()">R-Pentomino</button></div>
+    <div><button class="buttton_nav" onclick="lightWeightShip()">Lightweight Space Ship</button></div>
+    <div><button class="buttton_nav" onclick="glider()">Glider</button></div>
+    <div><button class="buttton_nav" onclick="pulsar()">Pulsar</button></div>  
+    <div><button class="buttton_nav" onclick="fillRandomly()">Fill Randomdly</button></div>
+  <!-- <a href="#">Link 3</a> -->
+  </div>
+</div>
+<div><button class="buttton_nav" onclick="parent.location='https://radiant-reaches-56703.herokuapp.com/about'" >About</button></div>
+
+    </div>
+
+   <div  id="body">
+
+    <div id="left">
+  <div><h1>Next</h1>
+ 
+    <div><button class="buttton_nav" onclick="nextGen()"><div>▶️</div>Forward</button></div>
+      
+        <div><button class="buttton_nav" onclick="start()"><div>⏩</div>Fast Forward</button></div>
+        <div class="buttton_nav">
+            <div >Speed Control</div>
+            <input type="range"  id="forward speed" min="0.1" max="1000">
+            <div id="valueofforwardspeed"></div>
+         </div>
+        <div><button class="buttton_nav" onclick="pause1()">⏸️<div>Stop</div></button></div> 
+        
+    </div>
+   
+    </div>
+    
+
+
+        <div>
+    
+            
+                <table id="field"></table>
+     
+            
+    
+       </div>
+
+       
+<div id="right">
+    <div><h1>previous</h1> 
+      
+        <div>
+
+            <button id="previousbtn" class="buttton_nav"  ><div>◀️</div>Back</button>
+        </div>
+       
+ 
+         <div ><button class="buttton_nav" onclick="autoPrevious()"><div>⏪</div>Go to Origin</button></div>
+         <div class="buttton_nav">
+            <div >Speed Control</div>
+            <input id="backward speed" type="range" min=".1" max="1000">
+         <div id="valueofbackwardspeed"></div>
+         </div>
+         
+         <div><button class="buttton_nav" onclick="pause2()">⏸ <div>Stop</div> </button></div>
+        
+
+        </div>
+  
+  
+
+
+
+
+
+</div>
+
+   </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+    <script  src="script2.js"></script>
+    <%- include("footer") -%>
