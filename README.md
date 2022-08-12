@@ -1,4 +1,4 @@
-# IITISoC-22-Web-3-GameOfLife
+## IITISoC-22-Web-3-GameOfLife
 
 
 ## Game Description
@@ -21,12 +21,12 @@ The initial pattern is the first generation. The second generation evolves from 
 https://radiant-reaches-56703.herokuapp.com/
 
 ## Team Members
-- [Shashant Kumar]
-- [Sonika Batchu]
+- [Shashant Kumar](https://github.com/shashantsah)
+- [Sonika Batchu]()
 
 
-#Mentor
-- [Rashi Motwani]
+## Mentor
+- [Rashi Motwani](https://github.com/rashimotwani/)
 
 ## Some SnapShot
 
